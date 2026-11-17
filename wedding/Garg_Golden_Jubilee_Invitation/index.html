@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#2b1018">
+<title>50 Golden Years | Prem ji Garg & Parvati Devi</title>
+<style>
+:root{--ivory:#f7efdE;--gold:#d8b35d;--gold2:#f6df9a;--maroon:#451522;--deep:#210c13;--ink:#482a20}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--deep);color:var(--ivory);font-family:Georgia,'Times New Roman',serif}
+body{overflow:hidden}.stage{position:relative;min-height:100svh;display:grid;place-items:center;padding:22px;background:radial-gradient(ellipse at 50% 35%,#70402b 0,#30131d 48%,#17080d 100%);overflow:hidden}
+.stage:before{content:"";position:absolute;inset:0;background-image:radial-gradient(#f6df9a88 1px,transparent 1px);background-size:53px 53px;opacity:.23;animation:drift 24s linear infinite}
+@keyframes drift{to{background-position:180px -220px}}
+.slide{display:none;position:relative;width:min(100%,760px);min-height:min(88svh,850px);border:1px solid #d8b35d99;border-radius:8px;background:linear-gradient(145deg,#fff8e8,#f1e2c4 70%,#e9d4a9);color:var(--ink);box-shadow:0 24px 90px #0009,inset 0 0 0 8px #fff8,inset 0 0 0 10px #c9a34c88;padding:clamp(24px,5vw,54px);text-align:center;overflow:hidden;animation:appear .8s ease both}
+.slide.active{display:flex;flex-direction:column;justify-content:center;align-items:center}
+@keyframes appear{from{opacity:0;transform:translateY(14px) scale(.985)}to{opacity:1;transform:none}}
+.slide:before,.slide:after{content:"✦ ❧ ✦";position:absolute;color:#b18a3e;letter-spacing:12px;font-size:17px;left:0;right:0}.slide:before{top:15px}.slide:after{bottom:15px}
+.kicker{letter-spacing:.25em;text-transform:uppercase;color:#98712f;font:600 11px Arial,sans-serif}
+h1,h2,p{margin:12px 0}h1{font-size:clamp(42px,9vw,86px);line-height:.95;color:#a87c2b;text-shadow:0 2px #fff}h2{font-size:clamp(27px,5vw,46px);font-weight:500;color:#6c2631}p{font-size:clamp(16px,2.5vw,20px);line-height:1.6}
+.gold-rule{width:120px;height:1px;background:linear-gradient(90deg,transparent,#b78b38,transparent);margin:18px auto}
+.small{font-size:14px;color:#755d46}.names{font-size:clamp(25px,5vw,42px);color:#672635;line-height:1.2}
+.tap{margin-top:26px;border:1px solid #b38a3b;border-radius:99px;padding:13px 24px;color:#6c2631;font:600 11px Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;background:#fff9}
+.door-scene{background:linear-gradient(90deg,#35131d,#6c3829 50%,#32121b);color:#f7e8c3;border:1px solid #d9b65c;box-shadow:inset 0 0 0 8px #3d1b24,inset 0 0 0 10px #b68b45}
+.door-scene:before,.door-scene:after{color:#f3d58a}
+.door{width:min(75%,380px);height:290px;border:10px ridge #b58a40;border-radius:48% 48% 4px 4px;background:linear-gradient(90deg,#4a1a25,#783a32,#4a1a25);box-shadow:inset 0 0 0 4px #e0bd69,inset 0 0 45px #12070a,0 15px 30px #0008;position:relative;margin:8px auto 22px;display:flex;align-items:center;justify-content:center}
+.door:before{content:"❈";font-size:94px;color:#d8b35d;text-shadow:0 0 18px #e8ca7d}
+.door:after{content:"";position:absolute;left:50%;top:0;bottom:0;border-left:2px solid #c59c4c88}
+.attendants{display:flex;justify-content:center;gap:26px;margin-top:-15px}
+.person{width:62px;height:120px;position:relative}
+.person:before{content:"";position:absolute;top:0;left:13px;width:38px;height:38px;border-radius:50%;background:radial-gradient(circle at 40% 30%,#e7bd91,#9b5c3e);box-shadow:0 -10px 0 -2px #8d1e2b}
+.person:after{content:"";position:absolute;top:35px;left:3px;width:58px;height:82px;background:linear-gradient(90deg,#c4a36c,#f5e6c5,#b18a52);clip-path:polygon(20% 0,80% 0,100% 100%,0 100%);border-bottom:3px solid #a77b31}
+.person:nth-child(2):after{background:linear-gradient(90deg,#6d2331,#e4c88e,#6d2331)}
+.envelope{width:min(80%,420px);height:235px;margin:25px auto;background:linear-gradient(135deg,#fff7df,#e9d4a2);border:2px solid #b98d3c;box-shadow:0 12px 35px #4a1d1d44;position:relative;display:grid;place-items:center;transform:rotate(-2deg)}
+.envelope:before{content:"";position:absolute;inset:0;background:linear-gradient(145deg,transparent 49.5%,#c7a35c55 50%,transparent 50.5%),linear-gradient(35deg,transparent 49.5%,#c7a35c55 50%,transparent 50.5%)}
+.seal{z-index:1;border-radius:50%;width:75px;height:75px;background:radial-gradient(circle,#f5d98a,#a7792d);display:grid;place-items:center;color:#fff5d6;font-size:32px;border:3px double #fff1c4;box-shadow:0 3px 12px #6b431c66}
+.photos{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:100%;margin:18px 0}
+.photos img{width:100%;height:clamp(150px,28vw,280px);object-fit:contain;background:#e8d9b9;border:5px solid #fff9e9;outline:1px solid #b48b40;box-shadow:0 8px 22px #65452c33}
+.timeline{display:flex;align-items:center;gap:10px;margin:20px auto;width:100%;max-width:450px}.timeline span{background:#6b2632;color:#fff0c7;border-radius:50%;width:70px;height:70px;display:grid;place-items:center;font-size:22px;box-shadow:0 0 0 5px #d7bd83}
+.calendar{border:1px solid #b48b40;padding:18px 24px;margin:18px auto;width:min(100%,360px);background:#fff9ec;box-shadow:0 10px 25px #65452c22}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:7px;margin-top:12px;font:14px Arial,sans-serif}.cal-grid b{padding:8px 0;color:#856a3c}.cal-grid .day{padding:8px 0}.cal-grid .chosen{border-radius:50%;background:#7a2636;color:#fff0c7;box-shadow:0 0 0 3px #d8b35d}
+.details{display:grid;gap:12px;text-align:left;width:min(100%,430px);margin:20px auto}.detail{display:flex;gap:14px;align-items:center;border-bottom:1px solid #cbb37d;padding:9px 4px}.detail strong{display:block;color:#6b2632;font:600 10px Arial,sans-serif;letter-spacing:.13em;text-transform:uppercase}.detail span{font-size:17px}
+.actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:14px}.actions button,.nav button{border:1px solid #b58b40;background:#6b2632;color:#fff4d8;border-radius:30px;padding:11px 17px;font:600 11px Arial,sans-serif;letter-spacing:.08em;cursor:pointer}.actions button.secondary,.nav button{background:transparent;color:#6b2632}
+.nav{position:fixed;bottom:15px;left:0;right:0;display:flex;justify-content:center;gap:12px;z-index:10}.nav button{background:#f7edda;color:#51202a;box-shadow:0 4px 16px #0004}
+.music{position:fixed;right:15px;top:15px;z-index:12;border:1px solid #d8b35d;background:#451522;color:#f9e8bd;border-radius:30px;padding:10px 14px;font:11px Arial,sans-serif;cursor:pointer}
+.hint{font:11px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#e7d4a7;margin-top:15px}
+@media(max-width:560px){.stage{padding:12px 10px 70px}.slide{min-height:84svh;padding:32px 22px}.door{height:230px}.photos{gap:8px}.photos img{height:170px}.nav{bottom:8px}.music{top:8px;right:8px}}
+</style>
+</head>
+<body>
+<button class="music" id="musicBtn" aria-label="Play background music">♫ Play music</button>
+<audio id="bgMusic" src="assets/royal_indian_classical.wav" preload="auto" loop></audio>
+<main class="stage" id="stage">
+<section class="slide active door-scene" data-slide="0" aria-label="The arrival">
+ <div class="kicker" style="color:#e6ca87">A royal visit from the Garg family</div>
+ <div class="door" aria-hidden="true"></div>
+ <div class="attendants" aria-hidden="true"><div class="person"></div><div class="person"></div></div>
+ <h2 style="color:#f5dfaa">A special invitation awaits you...</h2>
+ <p style="color:#f5e9cf">Some celebrations are not just occasions.<br>They are stories of a lifetime.</p>
+ <div class="hint">Tap anywhere to receive your invitation</div>
+</section>
+<section class="slide" data-slide="1">
+ <div class="kicker">With love, from the Garg family</div>
+ <h2>A personal invitation</h2><p>Presented with warmth, blessings and a little royal charm.</p>
+ <div class="envelope"><div class="seal">50</div></div>
+ <p class="small">Tap to break the seal and open the invitation</p>
+</section>
+<section class="slide" data-slide="2">
+ <div class="kicker">A milestone written in gold</div>
+ <p style="margin-bottom:0">The long-awaited day has arrived...</p>
+ <h1>50</h1><h2 style="margin-top:-8px">GOLDEN YEARS</h2>
+ <div class="gold-rule"></div>
+ <div class="names">Mr. Prem ji Garg<br><span style="font-size:20px;color:#a47b37">&amp;</span><br>Ms. Parvati Devi</div>
+ <p>Fifty years of togetherness, countless memories, endless love and a beautiful family built together.</p>
+ <p class="small">A journey that began in 1976 • Celebrating in 2026</p>
+</section>
+<section class="slide" data-slide="3">
+ <div class="kicker">A lifetime of love, treasured forever</div>
+ <h2>Our beautiful journey</h2>
+ <div class="photos">
+  <img src="assets/grandparents-photo-1.jpeg" alt="Original family photograph of the couple">
+  <img src="assets/grandparents-photo-2.jpeg" alt="Original family photograph of the couple">
+ </div>
+ <div class="timeline"><span>1976</span><div style="height:1px;background:#b58b40;flex:1"></div><span>2026</span></div>
+ <p>From the first chapter to fifty golden years — a story made special by every moment and every loved one.</p>
+</section>
+<section class="slide" data-slide="4">
+ <div class="kicker">Please save the date</div><h2>Golden Jubilee Celebration</h2>
+ <div class="calendar"><div class="kicker">December 2026</div><div class="cal-grid">
+ <b>Su</b><b>Mo</b><b>Tu</b><b>We</b><b>Th</b><b>Fr</b><b>Sa</b>
+ <span class="day"></span><span class="day"></span><span class="day">1</span><span class="day">2</span><span class="day">3</span><span class="day">4</span><span class="day">5</span>
+ <span class="day chosen">6</span><span class="day">7</span><span class="day">8</span><span class="day">9</span><span class="day">10</span><span class="day">11</span><span class="day">12</span>
+ <span class="day">13</span><span class="day">14</span><span class="day">15</span><span class="day">16</span><span class="day">17</span><span class="day">18</span><span class="day">19</span>
+ <span class="day">20</span><span class="day">21</span><span class="day">22</span><span class="day">23</span><span class="day">24</span><span class="day">25</span><span class="day">26</span>
+ <span class="day">27</span><span class="day">28</span><span class="day">29</span><span class="day">30</span><span class="day">31</span>
+ </div></div>
+ <h1 style="font-size:42px">06.12.2026</h1><p>Fifty years. One beautiful celebration.</p>
+</section>
+<section class="slide" data-slide="5">
+ <div class="kicker">The celebration</div><h2>Golden Jubilee Celebration</h2>
+ <div class="names">Mr. Prem ji Garg &amp; Ms. Parvati Devi</div>
+ <div class="details">
+  <div class="detail"><div>✧</div><div><strong>Date</strong><span>06 December 2026</span></div></div>
+  <div class="detail"><div>◷</div><div><strong>Time</strong><span>12:00 PM</span></div></div>
+  <div class="detail"><div>⌖</div><div><strong>Venue</strong><span>RBD Sarovar Portico, Bangalore</span></div></div>
+  <div class="detail"><div>❧</div><div><strong>Hosted with love by</strong><span>Garg Family</span></div></div>
+ </div>
+ <div class="actions">
+  <button id="calendarBtn">＋ Add to Calendar</button>
+  <button class="secondary" id="venueBtn">Explore Venue ↗</button>
+ </div>
+</section>
+<section class="slide" data-slide="6">
+ <div class="kicker">With love, Garg Family</div>
+ <h1 style="font-size:clamp(38px,8vw,68px)">Your presence<br>is much valued.</h1>
+ <div class="gold-rule"></div>
+ <p style="font-size:19px;color:#6b2632">आपकी गरिमामयी उपस्थिति हमारे लिए अत्यंत मूल्यवान होगी।</p>
+ <p>It would mean the world to celebrate this beautiful milestone with you.</p>
+ <h2 style="margin-top:26px">With love,</h2><div class="names">Garg Family</div>
+ <div class="hint" style="color:#9b793d">A lifetime of love. Fifty years of memories.</div>
+</section>
+</main>
+<div class="nav"><button id="backBtn">← Back</button><button id="nextBtn">Next →</button></div>
+<script>
+const slides=[...document.querySelectorAll('.slide')];let current=0;let started=false;
+const audio=document.getElementById('bgMusic'),musicBtn=document.getElementById('musicBtn');
+function show(n){current=Math.max(0,Math.min(slides.length-1,n));slides.forEach((s,i)=>s.classList.toggle('active',i===current));document.getElementById('backBtn').style.visibility=current===0?'hidden':'visible';document.getElementById('nextBtn').style.visibility=current===slides.length-1?'hidden':'visible';}
+async function firstInteraction(){if(!started){started=true;try{await audio.play();musicBtn.textContent='♫ Pause music';}catch(e){musicBtn.textContent='♫ Play music';}}}
+async function advance(){await firstInteraction();if(current<slides.length-1)show(current+1);}
+document.getElementById('stage').addEventListener('click',e=>{if(e.target.closest('button'))return;advance();});
+document.getElementById('nextBtn').addEventListener('click',advance);
+document.getElementById('backBtn').addEventListener('click',()=>show(current-1));
+musicBtn.addEventListener('click',async()=>{if(audio.paused){try{await audio.play();musicBtn.textContent='♫ Pause music';}catch(e){musicBtn.textContent='♫ Play music';}}else{audio.pause();musicBtn.textContent='♫ Play music';}});
+document.getElementById('calendarBtn').addEventListener('click',()=>{
+ const ics=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Garg Family//Golden Jubilee//EN','CALSCALE:GREGORIAN','BEGIN:VEVENT','UID:garg-golden-jubilee-20261206@example.local','DTSTAMP:20261117T000000Z','DTSTART:20261206T063000Z','DTEND:20261206T093000Z','SUMMARY:Golden Jubilee - Prem ji Garg & Parvati Devi','LOCATION:RBD Sarovar Portico, Bangalore','DESCRIPTION:Celebrating 50 Golden Years with the Garg Family.','END:VEVENT','END:VCALENDAR'].join('\r\n');
+ const blob=new Blob([ics],{type:'text/calendar;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='Garg-Golden-Jubilee-6-Dec-2026.ics';a.click();URL.revokeObjectURL(url);
+});
+document.getElementById('venueBtn').addEventListener('click',()=>window.open('https://www.google.com/maps/search/?api=1&query=RBD+Sarovar+Portico+Bangalore','_blank','noopener'));
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')advance();if(e.key==='ArrowLeft')show(current-1);});
+show(0);
+</script>
+</body></html>
